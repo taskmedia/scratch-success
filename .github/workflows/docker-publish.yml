@@ -87,9 +87,9 @@ jobs:
         push: ${{ github.event_name != 'pull_request' }}
         tags: |
           ${{ steps.meta.outputs.tags }}
-          ghcr.io/taskmedia/curl-jq:latest
-          fty4/curl-jq:main
-          fty4/curl-jq:latest
+          ghcr.io/taskmedia/scratch-success:latest
+          fty4/scratch-success:main
+          fty4/scratch-success:latest
         labels: ${{ steps.meta.outputs.labels }}
         cache-from: type=gha
         cache-to: type=gha,mode=max
