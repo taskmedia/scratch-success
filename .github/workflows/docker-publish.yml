@@ -3,7 +3,7 @@ name: Docker
 on:
   schedule:
   # run every biweekly
-  - cron: '42 4 1,15 * *'
+  # - cron: '42 4 1,15 * *'
 
   push:
     branches: ["main"]
